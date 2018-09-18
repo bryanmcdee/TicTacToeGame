@@ -21,7 +21,6 @@
             function getSum(total, num) {
                 return total + num;
             }
-    
             return masterGameBoard[0].gameBoard.reduce(getSum) + masterGameBoard[1].gameBoard.reduce(getSum);
         };
 
@@ -39,7 +38,6 @@
         var initializeNewGame = function() {
             var player1 = new Player(0, 1, 'Player 1', 'X', getNewPlayerGameBoard());
             var player2 = new Player(1, 2, 'Player 2', '0', getNewPlayerGameBoard()); 
-
             masterGameBoard = [player1, player2];
         };      
         
