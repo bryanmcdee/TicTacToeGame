@@ -1,0 +1,21 @@
+.tile {
+    border: 1px solid black;
+    height: 185px;
+    font-size: 10vw;
+}
+
+.selectedTilePlayer1 {
+    background-color: red;
+}
+
+.selectedTilePlayer2 {
+    background-color: blue;
+}
+
+#currentPlayer {
+    padding-bottom: 10px;
+}
+
+#buttonContainer {
+    padding-top: 15px;
+}

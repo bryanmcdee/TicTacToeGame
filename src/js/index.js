@@ -21,4 +21,17 @@
     setTimeout(printTextOnScreen, 2000, introduction, 0);
     setTimeout(printTextOnScreen, 4000, introduction + question, introduction.length, displayButtons);
     setTimeout(displayButtons, 6500);
+
+    var bindButtonClickEvents = (function() {    
+        $('#yes').click(function(event) {
+            event.preventDefault();
+            window.location.href = "./ticTacToe.html";
+        });
+
+        $('#no').click(function(event) {
+            event.preventDefault();
+            alert('Ok :(  Maybe next time.');
+        });
+
+    }());    
 }());
