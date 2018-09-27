@@ -1,0 +1,27 @@
+{
+  "name": "tictactoegame",
+  "version": "1.0.0",
+  "description": "Simple Tic Tac Toe game using JavaScript, HTML, and CSS",
+  "main": "src/index.html",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanmcdee/TicTacToeGame.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Tic Tac Toe"
+  ],
+  "author": "Bryan McDonald",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bryanmcdee/TicTacToeGame/issues"
+  },
+  "homepage": "https://github.com/bryanmcdee/TicTacToeGame#readme"
+}
